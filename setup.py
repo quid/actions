@@ -23,6 +23,10 @@ with open(requirements_txt) as requirements:
 setup(
     name="actions",
     version="1.0.0",
+    description="Declarative actions",
+    author="Robert Roose",
+    author_email="robert@shivercube.com",
+    url="https://bitbucket.org/summatix/actions",
     packages=find_packages(),
     install_requires=requires
 )
