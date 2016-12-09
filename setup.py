@@ -14,12 +14,12 @@ try:
     long_description = pypandoc.convert("README.md", "rst")
 
 except (IOError, ImportError):
-    long_description = open("README.md").read()
+    long_description = ""
 
 
 setup(
     name="actions",
-    version="1.0.2",
+    version="1.0.3",
     description="Declarative actions",
     long_description=long_description,
     author="Quid Inc.",
